@@ -1,0 +1,28 @@
+﻿# Variables de entorno - NUNCA subir a GitHub
+.env
+.env.local
+.env.production
+
+# Binarios de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Archivos de prueba
+test-client.html
+
+# Dependencias
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
